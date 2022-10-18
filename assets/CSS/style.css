@@ -1,0 +1,80 @@
+/* #2987BE */
+/* #1059B8 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+/* Timer */
+
+.timer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timer-block{
+    width: 150px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.time{
+    background-color: #2987BE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 150px;
+    font-size: 95px;
+}
+.title{
+    background-color: #1059B8;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Buttons */
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    width: 180px;
+    transition: .3s; 
+    cursor: pointer;
+}
+.start, .stop{
+    color: black;
+}
+.start:hover, .stop:hover{
+    background-color: #1059B8;
+    color: white;
+}
+.pause{
+    color: black;
+}
+.pause:hover{
+    background-color: #E03B8B;
+    color: white;
+}
